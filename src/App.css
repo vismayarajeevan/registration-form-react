@@ -121,9 +121,7 @@ input,textarea, select{
 }
 
 @media (max-width:480px){
-  .main{
-    padding:  10px;
-  }
+  
   .container{
     max-width: 1000px;
 
