@@ -122,10 +122,11 @@ input,textarea, select{
 
 @media (max-width:480px){
   .main{
-    padding: 0 30px;
+    padding:  10px;
   }
   .container{
-    max-width: 700px;
+    max-width: 1000px;
+
   }
   .button {
     flex-direction: row; /* Align buttons side-by-side */
@@ -141,9 +142,15 @@ input,textarea, select{
     font-size: 12px;
   }
 
-  .head {
-    font-size: 15px;
+  .head h2{
+    font-size: 13px;
+    font-weight: 900;
   }
+  form{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
 
   input::placeholder,
   textarea::placeholder {
@@ -198,7 +205,7 @@ input,textarea, select{
     font-size: 12px; /* Smaller font size for labels */
   }
   .head {
-    font-size: 18px; /* Reduced heading size */
+    font-size: 15px; /* Reduced heading size */
   }
 }
 
